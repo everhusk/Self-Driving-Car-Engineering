@@ -24,7 +24,7 @@ Output:
 
 # Solution Overview
 
-The goal was to detect lane lines using Python and OpenCV.
+The goal was to detect lane lines using Python and OpenCV. For full details checkout the jupyter notebook.
 Note: Lines may be straight, curved, or colored (i.e. yellow boundary lines, weather, TOD, etc.).
 
 ## Tools Available

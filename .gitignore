@@ -2,3 +2,5 @@
 src/
 # Given datasets
 data/
+# Python Notebook Checkpoints
+.ipynb_checkpoints
