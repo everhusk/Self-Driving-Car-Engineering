@@ -6,13 +6,16 @@ Using the German Traffic Sign Dataset, use deep neural networks and convolutiona
 
 # Problem Solution
 
-TODO
-
 ## High Level Overview
 
-The pipeline used to solve this problem consists of the following N steps:
+The approach to solving this problem consists of the following steps:
 
-1. Download the dataset
+1. Load the data set (see below for links to the project data set)
+2. Explore, summarize and visualize the data set
+3. Design, train and test a model architecture
+4. Use the model to make predictions on new images
+5. Analyze the softmax probabilities of the new images
+6. Summarize the results
 
 # Potential Shortcomings
 
