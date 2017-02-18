@@ -24,7 +24,8 @@ Output:
 
 # Solution Overview
 
-The goal was to detect lane lines using Python and OpenCV. Note: Lines may be straight, curved, or colored (i.e. yellow boundary lines, weather, TOD, etc.).
+The goal was to detect lane lines using Python and OpenCV.
+Note: Lines may be straight, curved, or colored (i.e. yellow boundary lines, weather, TOD, etc.).
 
 ## Tools Available
 
@@ -58,3 +59,7 @@ A possible improvement would be to run an optimization function on the parameter
 
 # Referenecs
 [1] https://github.com/udacity/CarND-LaneLines-P1
+
+# License
+
+MIT: http://rem.mit-license.org
