@@ -5,16 +5,13 @@
 When we drive, we use our eyes to decide where to go. The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle. Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm. [1]
 
 Given a road image/video:
-![Alt text](/test_images/solidWhiteRight.jpg "Optional Title")
-
-And produce an output line this:
-![Alt text](/assets/laneLines_thirdPass.jpg "Optional Title")
-
+![Example1](example1.gif)
 Note: Lines may be straight, curved, or colored (i.e. yellow boundary lines, weather, TOD, etc.)
+![Example1](example2.gif)
 
-# Problem Solution
+# Solution
 
-In this project, the goal is to detect lane lines in images using Python and OpenCV.
+The goal is to detect lane lines using Python and OpenCV.
 
 ## Tools available
 
@@ -37,7 +34,10 @@ The pipeline used to solve this problem consists of the following 5 steps:
 4. Mask the region of interest
 5. Apply the Hough Transform
 6. Approximate the left lane from positive slope lines, right from negative, and overlay them onto the image
----
+
+## Sample Outputs
+![Demo1](demo1.gif)
+![Demo1](demo2.gif)
 
 # Potential Shortcomings
 
