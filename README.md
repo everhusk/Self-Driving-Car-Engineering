@@ -2,12 +2,26 @@
 
 Contains all projects related to the course.
 
-## Setup Instructions
+## Setup
 
-To setup your environment follow these steps:
-https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_docker.md
+Setup docker and pull the following repo:
+```
+docker pull udacity/carnd-term1-starter-kit
+```
 
-Then run the following command:
+Pull this repo with:
+```
+git clone https://www.github.com/Everhusk/Self-Driving-Car-Engineering && cd Self-Driving-Car-Engineering
+```
+
+Run the docker:
+```
+docker run -it --rm -p 8888:8888 -v `pwd`:/src udacity/carnd-term1-starter-kit
+```
+or on Windows:
 ```
 docker run -it --rm -p 8888:8888 -v ${pwd}:/src udacity/carnd-term1-starter-kit
 ```
+
+## License
+MIT
