@@ -14,14 +14,18 @@ Pull this repo with:
 git clone https://www.github.com/Everhusk/Self-Driving-Car-Engineering && cd Self-Driving-Car-Engineering
 ```
 
-Run the docker:
+## To run solutions
+
+Run docker (Linux):
 ```
 docker run -it --rm -p 8888:8888 -v `pwd`:/src udacity/carnd-term1-starter-kit
 ```
-or on Windows:
+Run docker (Windows):
 ```
 docker run -it --rm -p 8888:8888 -v ${pwd}:/src udacity/carnd-term1-starter-kit
 ```
+
+Then simply navigate to the project solution you wish to run and open the solution.ipynb.
 
 ## License
 MIT
