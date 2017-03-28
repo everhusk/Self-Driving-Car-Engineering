@@ -12,15 +12,6 @@ The goals / steps of this project are the following:
 * Analyze the softmax probabilities of the new images
 * Summarize the results with a written report
 
-
-# (Image References)
-[image1]: ./visualization.png "Visualization"
-[image2]: ./visualization2.png "Visualization 2"
-[image4]: ./test_images/0.png "Traffic Sign 1"
-[image5]: ./test_images/1.png "Traffic Sign 2"
-[image6]: ./test_images/2.png "Traffic Sign 3"
-[image7]: ./test_images/3.png "Traffic Sign 4"
-[image8]: ./test_images/4.png "Traffic Sign 5"
 ---
 ### Writeup / README
 
@@ -48,7 +39,7 @@ The code for this step is contained in the third code cell of the IPython notebo
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![alt text][image2]
+![image2](./visualization2.png)
 
 ### Design and Test a Model Architecture
 
@@ -124,8 +115,11 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6]
-![alt text][image7] ![alt text][image8]
+![image4](./test_images/0.png)
+![image5](./test_images/1.png)
+![image6](./test_images/2.png)
+![image7](./test_images/3.png)
+![image8](./test_images/4.png)
 
 The fourth image might be difficult to classify because it is a bit skewed from a full circle.
 
