@@ -115,11 +115,11 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![image4](./test_images/0.png)
-![image5](./test_images/1.png)
-![image6](./test_images/2.png)
-![image7](./test_images/3.png)
-![image8](./test_images/4.png)
+![image4](./test_images/0.jpg)
+![image5](./test_images/1.jpg)
+![image6](./test_images/2.jpg)
+![image7](./test_images/3.jpg)
+![image8](./test_images/4.jpg)
 
 The fourth image might be difficult to classify because it is a bit skewed from a full circle.
 
