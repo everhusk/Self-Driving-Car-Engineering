@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/Everhusk/Self-Driving-Car-Engineering/blob/master/P2/solution.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/Everhusk/Self-Driving-Car-Engineering/blob/master/P2%20-%20Traffic%20Sign%20Classification/solution.ipynb)
 
 ### Data Set Summary & Exploration
 
@@ -28,10 +28,10 @@ The code for this step is contained in the second code cell of the IPython noteb
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
 
-* The size of training set is ? 34799
-* The size of test set is ? 12630
-* The shape of a traffic sign image is ? 32x32x3
-* The number of unique classes/labels in the data set is ? 43
+* The size of training set is? 34799
+* The size of test set is? 12630
+* The shape of a traffic sign image is? 32x32x3
+* The number of unique classes/labels in the data set is? 43
 
 #### 2. Include an exploratory visualization of the dataset and identify where the code is in your code file.
 
