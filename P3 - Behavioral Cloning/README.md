@@ -61,6 +61,8 @@ The model used an adam optimizer, so the learning rate was not tuned manually. D
 
 #### Results & Recommendations
 
+![demo](./demo.gif)
+
 The result of the model applied to the car can be viewed here: https://youtu.be/-g2SErGJf4Q
 
 This was a challenging project to get working, but the model was was able to successfully drive the car around the track autonomously. There are some issues with driving straight (it oscillates quite a bit during certain areas), but I believe this could be improved by adding more data for straight portions of the track.
