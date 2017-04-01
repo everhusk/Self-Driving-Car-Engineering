@@ -5,3 +5,4 @@ data/
 # Python Notebook Checkpoints
 .ipynb_checkpoints
 __pycache__
+.weights

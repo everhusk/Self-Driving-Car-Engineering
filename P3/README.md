@@ -28,13 +28,27 @@ The goals / steps of this project are the following:
 
 #### Solution Design Approach
 
-My model consists of a convolution neural network based on the [NVIDIA Architecture](https://arxiv.org/pdf/1604.07316.pdf). The overall architecture is displayed below:
+After reviewing the literature, the NVIDIA architecture was chosen to solve the problem. [NVIDIA Architecture](https://arxiv.org/pdf/1604.07316.pdf). The overall architecture is displayed below:
 
 ![image2](./CNN.png)
 
 The model includes RELU layers to introduce nonlinearity, and the data is normalized in the model using a Keras lambda layer.
 
 Convolutional layers are followed by 3 fully-connected layers: finally, a last single neuron tries to regress the correct steering value from the features it receives from the previous layers.
+
+It has been test on the road on a much more open ended terrain (public roads) and empirically demonstrated it's feasibility, so it should be able to beat a simulator with ease.
+
+#### Data Visualization
+
+Before pre-processing, we are given three snapshots from three different perspectives.
+
+[!before](./before.png)
+
+Every frame is preprocessed by cropping the upper and lower part of the frame (not needed to predict the steering angle).
+[!after](./after.png)
+
+After exploring the dataset, it is clear that there is a large number of images with steering angle of zero.
+[!histogram](./histogram.png)
 
 #### Attempts to reduce overfitting in the model
 
