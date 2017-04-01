@@ -1,40 +1,37 @@
-#**Advanced Lane Finding**
+#**Vehicle Detection**
 
-By: Sukhveer Sanghera
+Write a software pipeline to detect vehicles in a video stream. Please refer to the [python notebook](https://github.com/Everhusk/Self-Driving-Car-Engineering/blob/master/P5/solution.ipynb) for details.
 
-# Problem Description
+## Demo
 
-Write a software pipeline to detect vehicles in a video stream. [1]
+To solve this problem, a state-of-the-art, real-time object detection system called YOLO (You only look once) was implemented and applied to the test images/video.
 
-## Goals
+Image 1
+![image1](./test_images/test1.png)
+![image2](./output_images/test1.png)
 
-* Perform a Histogram of Oriented Gradients (HOG) feature extraction on a labeled training set of images and train a classifier Linear SVM classifier
-* Optionally, you can also apply a color transform and append binned color features, as well as histograms of color, to your HOG feature vector.
-* Note: for those first two steps don't forget to normalize your features and randomize a selection for training and testing.
-* Implement a sliding-window technique and use your trained classifier to search for vehicles in images.
-* Run your pipeline on a video stream (start with the test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
-* Estimate a bounding box for vehicles detected.
+Image 2
+![image2](./test_images/test2.png)
+![image2](./output_images/test2.png)
 
-# Solution
+Image 3
+![image3](./test_images/test3.png)
+![image3](./output_images/test3.png)
 
-## High Level Overview
+Image 4
+![image4](./test_images/test4.png)
+![image4](./output_images/test4.png)
 
-The pipeline used to solve this problem consists of the following 5 steps:
+Image 5
+![image5](./test_images/test5.png)
+![image5](./output_images/test5.png)
 
-1. Convert images to grayscale
-2. Draw the lines
+Image 6
+![image6](./test_images/test6.png)
+![image6](./output_images/test6.png)
 
----
-
-## Potential Shortcomings
-
-One potential shortcoming would be what would happen when ...
-Another shortcoming could be ...
-
-## Future Improvements
-
-A possible improvement would be to ...
-Another potential improvement could be to ...
+Sample Video:
+https://youtu.be/xe-IkAHGIj0
 
 # Referenecs
-[1] https://github.com/udacity/CarND-Advanced-Lane-Lines
+[1] https://pjreddie.com/darknet/yolo/
