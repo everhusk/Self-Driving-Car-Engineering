@@ -2,7 +2,7 @@
 
 In this project, the goal is to write a software pipeline to identify the lane boundaries in a video.
 
-## Project Goals / Steps
+## Project Overview
 
 The goals / steps of this project are the following:
 
@@ -17,23 +17,16 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./undistort_output.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./binary_combo_example.jpg "Binary Example"
-[image4]: ./warped_straight_lines.jpg "Warp Example"
-[image5]: ./color_fit_lines.jpg "Fit Visual"
-[image6]: ./example_output.jpg "Output"
 [video1]: ./demo.gif "Video"
 
-### Solution
-
-Please refer to solution.ipynb for the code and steps used to come up with a solution.  
-
-### Demo (video)
+### Result
 
 ![alt text][video1]
+
+Please refer to [solution.ipynb](https://github.com/Everhusk/Self-Driving-Car-Engineering/blob/master/P4%20-%20Advanced%20Lane%20Finding/solution.ipynb) for the code and steps used to come up with a solution.  
+
 ---
 
 ### Future Improvements
 
-The calibration methods could be improved a bit and some tuning parameters need to be adjusted (not much time was spent on it).
+A few placed involved hardcoding parameters (warp perspective, binary thresholding coefficients), these could be automated by using some form of optimizer based on the imput camera angles etc. Automating the binary threshold coefficients would lead to a much more robust lane finding algorithm in all terrains (snow, rain, etc.). Lastly, the smart line detection algorithm could use frames past the previous one to better extrapolate values for the current frame.
