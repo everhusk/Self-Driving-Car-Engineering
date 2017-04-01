@@ -1,9 +1,8 @@
 # **Behavioral Cloning**
-
-Using image data and steering angles, use deep neural networks and convolutional neural networks to clone driving behavior. Train, validate and test the model using Keras. Then use this model to drive a car autonomously around a race track. [1]
 ---
+### Overview
 
-**Behavioral Cloning Project**
+Using image data and steering angles, use deep neural networks and convolutional neural networks to clone driving behavior. Train, validate and test the model using Keras. Then use this model to drive a car autonomously around a race track.
 
 The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior
@@ -42,13 +41,13 @@ It has been test on the road on a much more open ended terrain (public roads) an
 
 Before pre-processing, we are given three snapshots from three different perspectives.
 
-[!before](./before.png)
+![before](./before.png)
 
 Every frame is preprocessed by cropping the upper and lower part of the frame (not needed to predict the steering angle).
-[!after](./after.png)
+![after](./after.png)
 
 After exploring the dataset, it is clear that there is a large number of images with steering angle of zero.
-[!histogram](./histogram.png)
+![histogram](./histogram.png)
 
 #### Attempts to reduce overfitting in the model
 
