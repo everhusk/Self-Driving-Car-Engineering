@@ -31,7 +31,7 @@ Image 6
 ![image6](./output_images/test6.png)
 
 Sample Video:
-https://youtu.be/xe-IkAHGIj0
+![video](https://media.giphy.com/media/OsRCZsNW61JAY/giphy.gif)
 
 # Referenecs
 [1] https://pjreddie.com/darknet/yolo/
