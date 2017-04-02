@@ -323,7 +323,7 @@ def is_good_fit(prev, curr):
     if abs(prev.left_x_bottom - curr.left_x_bottom) <= 15:
         if abs(prev.right_x_bottom - curr.right_x_bottom) <= 15:
                 if abs(curr.mean_left_curverad) < (abs(prev.mean_left_curverad*100)):
-                    if abs(curr.mean_right_curverad) < (abs(prev.mean_left_curverad*100)):
+                    if abs(curr.mean_right_curverad) < (abs(prev.mean_right_curverad*100)):
                         return True
     return False
 
